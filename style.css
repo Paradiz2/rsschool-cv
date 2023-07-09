@@ -1,0 +1,117 @@
+html {
+    font-family: Roboto, sans-serif;
+    margin-left: 40px;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    margin-top: 55px;
+    color: blue;
+    margin-bottom: 60px;
+}
+
+h2 {
+    color: black;
+    font-size: 1em ;
+    margin-bottom: 2em;
+}
+
+.contact_type {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+a {
+    color: blue;
+    margin-left: 20px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact_type {
+    min-width: 90px;
+}
+
+.contact_information {
+    margin-left: 30px;
+}
+
+.contacts {
+    margin-bottom: 2em;
+}
+
+.title {
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.experience {
+    display: flex;
+}
+
+li {
+    margin-bottom: 10px;
+    font-weight: 30px;
+}
+
+
+.code_practice {
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 1060px ;
+    margin: 0 auto; 
+}
+
+.wrapper-full {
+    max-width: 1262px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .2s  linear;
+    padding-bottom: 20px;
+    z-index: 999;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_item {
+    margin-right: 82px;
+}
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_link {
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    text-decoration: none;
+}
+.header_link:hover,
+.header_link:focus,
+.header_link:active{
+    opacity: 75%;
+} 
